@@ -29,6 +29,7 @@ namespace Lab1_Task6
             // Запись в файл
             StreamWriter f = new StreamWriter("encryptedText.txt");
             f.WriteLine(outputString);
+			f.WriteLine(inputKey);
             f.Close();
         }
 
