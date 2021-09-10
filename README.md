@@ -5,3 +5,5 @@
 * [Задание №2: выделение памяти и сортировка в потоках для матрицы](https://github.com/Daniil-Solo/MultiThreadsSolutions/blob/main/Lab_1/task2.cs)
 * [Задание №3: выделение памяти и умножение на число элементов для матрицы](https://github.com/Daniil-Solo/MultiThreadsSolutions/blob/main/Lab_1/task3.cs)
 * [Задание №4: рисование кругов на форме в разных потоках с отличающимися приоритетами](https://github.com/Daniil-Solo/MultiThreadsSolutions/blob/main/Lab_1/task4.cs)
+
+* [Задание №6: блочное шифрование в потоках](https://github.com/Daniil-Solo/MultiThreadsSolutions/blob/main/Lab_1/task6.cs)
