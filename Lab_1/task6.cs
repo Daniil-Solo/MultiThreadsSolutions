@@ -61,7 +61,7 @@ namespace Lab1_Task6
                     }
                     catch
                     {
-                        blocks[i][j] = '\n';
+                        blocks[i][j] = ' ';
                     }
             }
                     
