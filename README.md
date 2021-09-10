@@ -7,3 +7,4 @@
 * [Задание №4: рисование кругов на форме в разных потоках с отличающимися приоритетами](https://github.com/Daniil-Solo/MultiThreadsSolutions/blob/main/Lab_1/task4.cs)
 
 * [Задание №6: блочное шифрование в потоках](https://github.com/Daniil-Solo/MultiThreadsSolutions/blob/main/Lab_1/task6.cs)
+* [Задание №7: блочное дешифрование в потоках](https://github.com/Daniil-Solo/MultiThreadsSolutions/blob/main/Lab_1/task7.cs)
