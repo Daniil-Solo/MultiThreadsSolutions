@@ -5,7 +5,7 @@
 using System;
 using System.Threading;
 
-namespace Lab1_Task1
+namespace Lab1_Task2
 {
     class Program
     {
