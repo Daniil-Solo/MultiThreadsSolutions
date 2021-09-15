@@ -13,3 +13,4 @@
 Критические секции: 
 * [Задание №1: выделение памяти и подсчет суммы элементов в потоках для матрицы](https://github.com/Daniil-Solo/MultiThreadsSolutions/blob/main/Lab_2/task1.cs)
 * [Задание №2: подсчет контрольной суммы текста в потоках](https://github.com/Daniil-Solo/MultiThreadsSolutions/blob/main/Lab_2/task2.cs)
+* [Задание №3: вычисление значения интеграла методом прямоугольников в потоках](https://github.com/Daniil-Solo/MultiThreadsSolutions/blob/main/Lab_2/task3.cs)
