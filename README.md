@@ -11,4 +11,4 @@
 
 ## Лабораторная работа №2
 Критические секции: 
-* [Задание №2: выделение памяти и подсчет суммы элементов в потоках для матрицы](https://github.com/Daniil-Solo/MultiThreadsSolutions/blob/main/Lab_2/task1.cs)
+* [Задание №1: выделение памяти и подсчет суммы элементов в потоках для матрицы](https://github.com/Daniil-Solo/MultiThreadsSolutions/blob/main/Lab_2/task1.cs)
