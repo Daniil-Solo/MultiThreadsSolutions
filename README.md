@@ -19,4 +19,5 @@
 Строгие мьютексы: 
 * [Задание №1: скалярное произведение векторов в потоках](https://github.com/Daniil-Solo/MultiThreadsSolutions/blob/main/Lab_3/task1.cs)
 * [Задание №2: чтение и запись в файл между двух приложений](https://github.com/Daniil-Solo/MultiThreadsSolutions/blob/main/Lab_3/task2.cs)
+* [Задание №3: работа с хеш-таблицой в потоках](https://github.com/Daniil-Solo/MultiThreadsSolutions/blob/main/Lab_3/task3.cs)
 
