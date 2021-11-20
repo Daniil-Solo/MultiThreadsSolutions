@@ -1,6 +1,6 @@
 ﻿// Лабораторная 1. Задание 1
-// Дана матрица из целых чисел, содержащая m строк и n столбцов.
-// Необходимо найти номер столбца матрицы, сумма элементов которого минимальна, применяя потоки
+// Дана матрица из чисел, содержащая m строк и n столбцов.
+// Необходимо найти номер столбца матрицы, сумма элементов которого минимальна.
 // Реализовать создание строк матрицы параллельным способом
 
 using System;
@@ -10,8 +10,8 @@ namespace Lab1_Task1
 {
     class Program
     {
-        const int m = 10; // количество строк
-        const int n = 10; // количество столбцов
+        const int m = 3; // количество строк
+        const int n = 3; // количество столбцов
 
         static void Main(string[] args)
         {
@@ -93,21 +93,23 @@ namespace Lab1_Task1
 
         public static void CreateRow(object argument)
         {
+            string id = Thread.CurrentThread.Name;
+            Console.WriteLine(Convert.ToString(id) + " начался");
             Argument arg = (Argument)argument;
             arg.matrix[arg.index] = new float[n];
-            string id = Thread.CurrentThread.Name;
-            Console.WriteLine(Convert.ToString(id));
+            Console.WriteLine(Convert.ToString(id) + " закончился");
         }
 
         public static void SumElementInColumn(object argument)
         {
+            string id = Thread.CurrentThread.Name;
+            Console.WriteLine(Convert.ToString(id) + " начался");
             Argument2 arg = (Argument2)argument;
             float sum = 0;
             for (int i = 0; i < m; i++)
                 sum += arg.matrix[i][arg.index];
             arg.sums[arg.index] = sum;
-            string id = Thread.CurrentThread.Name;
-            Console.WriteLine(Convert.ToString(id));
+            Console.WriteLine(Convert.ToString(id) + " закончился");
         }
 
     }
