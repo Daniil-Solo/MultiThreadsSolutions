@@ -21,7 +21,7 @@ namespace Lab2_Task2
             if (k > input.Length)
                 k = input.Length;
             CalculateControlSum(input);
-            Console.WriteLine("Контрольная сумма: " + controlSum.ToString());
+            Console.WriteLine("Контрольная сумма: " + (controlSum%256).ToString());
         }
 
         public static void CalculateControlSum(String input)
