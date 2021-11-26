@@ -16,6 +16,7 @@ namespace Lab3_Task1
         {
             int[] vector1 = null;
             int[] vector2 = null;
+            int[] vector3 = null;
 
             Console.WriteLine("Введите длину для векторов");
             n = Int32.Parse(Console.ReadLine());
@@ -42,6 +43,21 @@ namespace Lab3_Task1
 
             Console.WriteLine();
 
+            Console.WriteLine("Будет ли третий вектор? y/n");
+            char answer = (char)Console.ReadLine()[0];
+            if (answer == 'y')
+            {
+                Console.WriteLine();
+                // Заполнение 3-ого вектора
+                Console.WriteLine("Третий вектор");
+                vector3 = new int[n];
+                for (int i = 1; i <= n; i++)
+                {
+                    Console.WriteLine("Введите значение " + i.ToString() + "-ой координаты");
+                    vector3[i - 1] = Int32.Parse(Console.ReadLine());
+                }
+            }
+            
             // Подготавливаем потоки
             Thread[] threads = new Thread[n];
             for (int i = 0; i < n; i ++)
@@ -67,7 +83,15 @@ namespace Lab3_Task1
             // Выводим ответ
             Console.WriteLine("Вектор1: " + GetStringVectorView(vector1, n));
             Console.WriteLine("Вектор2: " + GetStringVectorView(vector2, n));
-            Console.WriteLine("Скалярное произведение: " + sum.ToString());
+            if (answer == 'y')
+            {
+                Console.WriteLine("Вектор3: " + GetStringVectorView(vector3, n));
+                for (int i = 0; i < n; i++)
+                    vector3[i] = sum * vector3[i];
+                Console.WriteLine("Скалярное произведение: " + GetStringVectorView(vector3, n));
+            }
+            else
+                Console.WriteLine("Скалярное произведение: " + sum.ToString());
         }
 
         static void ScalarMultPart(object argument)
@@ -80,10 +104,9 @@ namespace Lab3_Task1
             mutexObj.WaitOne();
             Console.WriteLine(Convert.ToString(id) + " трудится");
             sum += arg.a * arg.b;
-            Thread.Sleep(1500);
-            mutexObj.ReleaseMutex();
-
+            Thread.Sleep(1000);
             Console.WriteLine(Convert.ToString(id) + " завершился");
+            mutexObj.ReleaseMutex();
         }
 
         static string GetStringVectorView(int [] vector, int n)
