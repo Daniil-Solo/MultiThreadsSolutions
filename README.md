@@ -1,4 +1,4 @@
-# Курс по многопоточности на C#
+# Курс по многопоточности на C# и Python
 ## Лабораторная работа №1
 Введение в потоки: 
 * [Задание №1: выделение памяти и поиск минимума в потоках для матрицы](https://github.com/Daniil-Solo/MultiThreadsSolutions/blob/main/Lab_1/task1.cs)
@@ -21,3 +21,7 @@
 * [Задание №2: чтение и запись в файл между двух приложений](https://github.com/Daniil-Solo/MultiThreadsSolutions/blob/main/Lab_3/task2.cs)
 * [Задание №3: работа с хеш-таблицой в потоках](https://github.com/Daniil-Solo/MultiThreadsSolutions/blob/main/Lab_3/task3.cs)
 
+## Лабораторная работа №4
+Его величество Семафоры
+* [Задание №1: управление пуллом печати в потоках](https://github.com/Daniil-Solo/MultiThreadsSolutions/blob/main/Lab_4/task1.py)
+* [Задание №2: побуферное шифрование в потоках](https://github.com/Daniil-Solo/MultiThreadsSolutions/blob/main/Lab_4/task1.py)
