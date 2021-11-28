@@ -25,3 +25,6 @@
 Его величество Семафоры
 * [Задание №1: управление пуллом печати в потоках](https://github.com/Daniil-Solo/MultiThreadsSolutions/blob/main/Lab_4/task1.py)
 * [Задание №2: побуферное шифрование в потоках](https://github.com/Daniil-Solo/MultiThreadsSolutions/blob/main/Lab_4/task1.py)
+
+## Лабораторная работа №5
+События 
