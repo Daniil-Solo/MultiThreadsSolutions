@@ -28,3 +28,7 @@
 
 ## Лабораторная работа №5
 События 
+* [Задание №1: трехленточная сортировка в потоках](https://github.com/Daniil-Solo/MultiThreadsSolutions/blob/main/Lab_5/task1.py)
+* [Задание №2: рандеву для ряда Маклорена функции e^x в потоках](https://github.com/Daniil-Solo/MultiThreadsSolutions/blob/main/Lab_5/task2.py)
+* [Задание №3: последовательная сортировка двух файлов в потоках](https://github.com/Daniil-Solo/MultiThreadsSolutions/blob/main/Lab_5/task3.py)
+* [Задание №4: 2 взаимосвязанных приложения в потоках](https://github.com/Daniil-Solo/MultiThreadsSolutions/blob/main/Lab_5/task4.py)
